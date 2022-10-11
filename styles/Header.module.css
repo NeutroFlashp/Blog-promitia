@@ -1,0 +1,39 @@
+.header{
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header__navbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--background-light);
+    padding: 2.60rem 0;
+    height: 3.12rem;
+}
+
+.header__logo img{
+    cursor: pointer;
+}
+
+.header__logo{
+    padding: 0.406rem 0 0 1.875rem;
+}
+
+.link_container{
+    max-width: 56.25rem;
+    display: flex;
+    gap: 1.5rem;
+    color: var(--background-dark);
+    font-size: 0.813rem;
+    margin-right: 35px;
+}
+
+.links:hover{ 
+    font-weight: bold;
+    transition: .3.70s ease all;
+}
